@@ -1,0 +1,12 @@
+label,nU,nS,medU,medS,U,p_two,p_one_U_gt_S,r_rb,CI_lo,CI_hi,nUdrugs,nSdrugs,p_drug_level,r_drug_level,p_4means_vs_43rows,Unstable_drug_means,RF_LODO_AUC,RF_LODO_found,GB_LODO_AUC,GB_LODO_found,RF_LOOCV_found
+Baseline,11,43,5.0,7.41,158.5,0.096,0.954,-0.33,-0.76,0.04,4,41,0.473,-0.23,0.402,"[4.81, 8.82, 4.85, 7.34]",0.605,1/11,0.247,1/11,9/11
+"DHP amide/lactam alternative, uniform shift -1.0",11,43,5.0,7.37,167.5,0.141,0.932,-0.29,-0.72,0.06,4,41,0.55,-0.19,0.469,"[4.81, 8.82, 4.85, 7.34]",0.603,0/11,0.2,0/11,9/11
+"DHP amide/lactam alternative, uniform shift -1.5",11,43,5.0,7.13,172.5,0.173,0.917,-0.27,-0.68,0.08,4,41,0.661,-0.14,0.567,"[4.81, 8.82, 4.85, 7.34]",0.596,0/11,0.202,1/11,9/11
+DHP alternative: reported nifedipine/felodipine values; other three -1.25,11,43,5.0,7.25,167.5,0.141,0.932,-0.29,-0.71,0.07,4,41,0.577,-0.18,0.493,"[4.81, 8.82, 4.85, 7.34]",0.603,0/11,0.198,0/11,9/11
+Excluding glimepiride (processing-stage endpoint),10,43,5.02,7.41,152.0,0.155,0.926,-0.29,-0.71,0.1,3,41,0.852,-0.07,0.755,"[8.82, 4.85, 7.34]",0.749,1/10,0.277,1/10,10/10
+"Excluding Felodipine/PVA (ID 19, relative-comparison record)",11,42,5.0,7.39,156.5,0.105,0.95,-0.32,-0.76,0.05,4,40,0.488,-0.22,0.413,"[4.81, 8.82, 4.85, 7.34]",0.647,1/11,0.199,1/11,9/11
+Excluding glimepiride and ID 19,10,42,5.02,7.39,150.0,0.167,0.92,-0.29,-0.72,0.1,3,40,0.867,-0.07,0.767,"[8.82, 4.85, 7.34]",0.748,0/10,0.273,1/10,9/10
+Stable class restricted to entries with stated storage conditions,11,8,5.0,6.33,31.0,0.31,0.864,-0.3,-0.9,0.32,4,7,0.927,-0.07,0.683,"[4.81, 8.82, 4.85, 7.34]",0.886,8/11,0.614,6/11,9/11
+Excluding glimepiride and the four ibuprofen screening rows (indomethacin and UDCA failures only),6,43,4.91,7.41,68.0,0.065,0.97,-0.47,-0.81,0.07,2,41,0.436,-0.34,0.393,"[4.85, 7.34]",0.409,0/6,0.019,0/6,4/6
+Restricted to entries with a recorded formulation route,9,29,5.0,7.07,94.5,0.223,0.895,-0.28,-0.74,0.13,3,28,0.688,-0.15,0.628,"[4.81, 8.82, 4.85]",0.406,1/9,0.123,1/9,8/9
+Alternative polar component for copovidone (ID 8) and Soluplus (ID 67),11,43,5.0,7.41,159.5,0.1,0.952,-0.33,-0.8,0.05,4,41,0.498,-0.21,0.423,"[4.81, 8.82, 4.85, 7.34]",0.613,1/11,0.2,0/11,9/11
